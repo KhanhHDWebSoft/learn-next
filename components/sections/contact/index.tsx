@@ -8,7 +8,7 @@ export default function ContactSection() {
       <h2 className="section__title">Contact Me</h2>
       <span className="section__subtitle">Get in touch</span>
 
-      <div className="contact__contain container grid">
+      <div className="contact__container container grid">
         <div>
           <div className="contact__information">
             <PhoneOutlined className="contact__icon" />

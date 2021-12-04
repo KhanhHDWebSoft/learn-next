@@ -14,7 +14,6 @@ const Home: NextPageWithLayout = () => {
       <HomeSection />
       <AboutSection />
       <SkillSection />
-      <QualificationSection />
       <ServiceSection />
       <ProjectSection />
       <ContactSection />

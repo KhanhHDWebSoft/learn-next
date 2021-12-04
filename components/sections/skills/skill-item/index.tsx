@@ -10,7 +10,7 @@ export interface SkillProps {
 
 export default function SkilLItem(props: SkillProps) {
   const { skillTitle, exp, skillList, children } = props;
-  const [skillActive, setSkillActive] = React.useState(false);
+  const [skillActive, setSkillActive] = React.useState(true);
   return (
     <div className={`skills__content skills__${skillActive ? 'open' : 'close'} `}>
       <div className="skills__header">
